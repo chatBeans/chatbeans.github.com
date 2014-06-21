@@ -6,13 +6,13 @@
 	<title>chatBeans</title>
 	<meta name="author" content="Shogo Fujii" />
 	<meta name="description" content="あなたの見ている番組を見ている人とつながって、リアルタイムで大勢と見るテレビを楽しみましょう。そして、いまテレビでで起きているできごとを様々な角度から見てみましょう。" />
-	<meta name="keywords"  content="リアルタイム, TBS, テレビ, 番組, 対話, コミュニケーション, ソーシャル" />
+	<meta name="keywords"  content="リアルタイム, TBS新卒, テレビ, 番組, 対話, コミュニケーション, ソーシャル" />
 	<meta name="Resource-type" content="Document" />
 
 	
 	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
-	<link rel="stylesheet" type="text/css" href="../css/examples.css" />
-	<link rel="stylesheet" type="text/css" href="../css/chatBeans.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link rel="stylesheet" type="text/css" href="./css/chatBeans.css" />
 
 	<!--[if IE]>
 		<script type="text/javascript">
@@ -24,38 +24,9 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>	
 	
 	<script type="text/javascript" src="../jquery.fullPage.js"></script>
-	<script type="text/javascript" src="../js/examples.js"></script>
+	<script type="text/javascript" src="./js/chatBeans.js"></script>
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				'verticalCentered': false,
-				'css3': true,
-				'slidesColor': ['#F0F2F4', '#fff', '#fff', '#fff'],
-				'navigation': true,
-				'navigationPosition': 'right',
-				'navigationTooltips': ['fullPage.js', 'Powerful', 'Amazing', 'Simple'],
-								
-				'afterLoad': function(anchorLink, index){
-					if(index == 2){
-						$('#iphone3, #iphone2, #iphone4').addClass('active');
-					}					
-				},
-				
-				'onLeave': function(index, newIndex, direction){
-					if (index == 3 && direction == 'down'){
-						$('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
-					}
-					else if(index == 3 && direction == 'up'){
-						$('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
-					}
-					
-					$('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
-					$('#staticImg').toggleClass('moveDown', index == 3 && direction == 'down');	
-				}
-			});
-		});
-	</script>
+
 
 </head>
 <body>
@@ -69,10 +40,10 @@
 	</div>
 
 	<div class="section " id="section0">
-		<h1>chatBeans</h1>
-		<p id="h1">あなたの見ている番組を見ている人とつながって、リアルタイムで大勢と見るテレビを楽しみましょう。そして、いまテレビでで起きているできごとを様々な角度から見てみましょう。</p>
-		<img src="imgs/iphone1.jpg" alt="iphone" />
+		<h1><img src="image/title.png" alt="chatBeans" /></h1>
+		<img src="image/concept.png" alt="iphone" />
 	</div>
+
 	<div class="section" id="section1">
 		<div class="wrap">
 			<div class="imgsContainer">
@@ -82,8 +53,12 @@
 			</div>
 			
 			<div class="box">
-				<h2>A powerful plugin</h2>
-				 <strong>fullPage.js</strong>  callbacks allow you to create amazing dynamic sites with a bit of imagination. This example tries to reproduce the Apple iPhone-5c website animations as an example of what fullPage.js is capable of.
+			<img src="imgs/iphone-green.png" alt="iphone" id="b" />
+			<b id="b">aaaaaaaaaaaaaaaaa</b>
+				<h2>テレビ視聴に特化した<strong>3つの機能</strong>で、より一体に盛り上がることができます。</h2>
+				 <strong>chatBeans</strong>では、<br>
+				 「ソーシャルしない人も」「ソーシャルする人はもっと」<br>
+				 テレビを一体で見る楽しみを提供します。
 			</div>
 		</div>
 	</div>

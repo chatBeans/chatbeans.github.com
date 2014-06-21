@@ -14,6 +14,7 @@ body{
 	}
 	h2{
 		font-size: 2em;
+		line-height: 150%;
 		margin: 0 0 18px 0;
 		font-family: arial,helvetica;
 	}
@@ -57,6 +58,10 @@ body{
 	}
 	#section0 img{
 		height: 100%;
+		margin: -20px 0 0 0;
+	}
+	#section0 p{
+		font-size: 12px;
 		margin: 40px 0 0 0;
 	}
 	
@@ -65,6 +70,12 @@ body{
 	
 	/* Section 1
 	* --------------------------------------- */
+	#section1 b{
+		position:absolute;
+		left: 40px;
+		top: 100px;
+	}
+	
 	#section1 img{
 		position:absolute;
 		left: 40px;
@@ -74,10 +85,10 @@ body{
 	#section1 .box{
 		position: absolute;
 		top: 50%;
-		left: 50%;
+		left: 45%;
 		margin-top: -192px;
 		margin-left: 89px;
-		width: 395px;
+		width: 500px;
 		z-index: 1;
 	}
 	#section1 .imgsContainer{
@@ -144,7 +155,12 @@ body{
 		-ms-transform:translate3d(548px, 0px, 0px);
 		transform: translate3d(548px, 0px, 0px);
 	}
-	
+	#b.active{		
+		-webkit-transform: translate3d(548px, 0px, 0px);
+		-moz-transform: translate3d(548px, 0px, 0px);
+		-ms-transform:translate3d(548px, 0px, 0px);
+		transform: translate3d(548px, 0px, 0px);
+	}
 	
 	
 	
