@@ -1,6 +1,6 @@
 body{
 		color: #333;
-		font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+		font-family: "Gotham Narrow SSm",Arial,"ÉqÉâÉMÉmäpÉS Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ÉÅÉCÉäÉI",Meiryo,"ÇlÇr ÇoÉSÉVÉbÉN","MS PGothic",sans-serif;
 	}
 	
 	
@@ -54,17 +54,40 @@ body{
 	/* Section 0
 	* --------------------------------------- */
 	#section0{
+		background: #fff;
 		padding: 60px 0;
 	}
-	#section0 img{
-		height: 100%;
-		margin: -20px 0 0 0;
-	}
 	#section0 p{
-		font-size: 12px;
-		margin: 40px 0 0 0;
+		color: #666666;
+	    font-size: 21px;
+	    line-height: 31px;
+	    text-shadow: none;
+	    text-align: left;
+	}
+	#section0 h1{
+		width: 100%
+	}
+	#section0 .right{
+		width: 610px;
+		height: 100%;
+		float: left;
+		margin: 50px 0px 0px 25px;
+	}
+	#section0 .right img{
+		width: 90%
 	}
 	
+	#section0 .left{
+		width: 470px;
+		height: 100%;
+		float: left;
+		margin: 200px 25px 0px 0px;
+	}
+	#section0 .left img{
+		text-align: left;
+		height: 70px;
+		margin-left: -100px;		
+	}
 	
 	
 	
@@ -100,11 +123,17 @@ body{
 		margin-top: -325px;
 		margin-left: -747px;
 		width: 800px;
-		height: 696px;
+		height: 610px;
 	}
-	#section1 img{
-		height: 100%;
+	#section1 p{
+		color: #ffffff;
+	    font-size: 21px;
+	    line-height: 31px;
+	    text-shadow: none;
+	    text-align: left;
+	    margin: 250px -100px 0px 45px;
 	}
+
 	/*screen resolutions between 620px and 800px*/
 	@media all and (min-width: 620px) and (max-width: 800px){
 		#section1 .imgsContainer{
@@ -128,20 +157,20 @@ body{
 		z-index: 10;
 	}
 	#iphone2.active{		
-		-webkit-transform: translate3d(-134px, 0px, 0px);
-		-moz-transform: translate3d(-134px, 0px, 0px);
-		-ms-transform:translate3d(-134px, 0px, 0px);
-		transform: translate3d(-134px, 0px, 0px);
+		-webkit-transform: translate3d(-40px, 0px, 0px);
+		-moz-transform: translate3d(-40px, 0px, 0px);
+		-ms-transform:translate3d(-40px, 0px, 0px);
+		transform: translate3d(-40px, 0px, 0px);
 	}
 	
 	#iphone3{
 		z-index: 12;
 	}
 	#iphone3.active{		
-		-webkit-transform: translate3d(213px, 0px, 0px);
-		-moz-transform: translate3d(213px, 0px, 0px);
-		-ms-transform:translate3d(213px, 0px, 0px);
-		transform: translate3d(213px, 0px, 0px);
+		-webkit-transform: translate3d(213px, 235px, 0px);
+		-moz-transform: translate3d(213px, 235px, 0px);
+		-ms-transform:translate3d(213px, 235px, 0px);
+		transform: translate3d(213px, 235px, 0px);
 	}
 	
 	#iphone4{
@@ -150,18 +179,11 @@ body{
 	}
 	
 	#iphone4.active{		
-		-webkit-transform: translate3d(548px, 0px, 0px);
-		-moz-transform: translate3d(548px, 0px, 0px);
-		-ms-transform:translate3d(548px, 0px, 0px);
-		transform: translate3d(548px, 0px, 0px);
+		-webkit-transform: translate3d(90px, 190px, 0px);
+		-moz-transform: translate3d(90px, 190px, 0px);
+		-ms-transform:translate3d(90px, 190px, 0px);
+		transform: translate3d(90px, 190px, 0px);
 	}
-	#b.active{		
-		-webkit-transform: translate3d(548px, 0px, 0px);
-		-moz-transform: translate3d(548px, 0px, 0px);
-		-ms-transform:translate3d(548px, 0px, 0px);
-		transform: translate3d(548px, 0px, 0px);
-	}
-	
 	
 	
 	/* Section 2 
