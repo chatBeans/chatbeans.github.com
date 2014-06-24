@@ -1,7 +1,7 @@
 $(document).ready(function() {
 			$('#fullpage').fullpage({
-			  slidesColor: ['#fff', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-			  anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage'],
+			  slidesColor: ['#fff', '#4BBFC3', '#7BAABE', '#A18E5C', '#ccddff'],
+			  anchors: ['chatBeans', 'concept', 'Replay&Digest', 'PUSHVolume', 'Sticker'],
 			  menu: '#menu',
 			  continuousVertical: true,
 			  'afterLoad': function(anchorLink, index){
