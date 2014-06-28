@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+
+body{
+		background-color: #000000;
+		color: #ECEEF1;
+		font-family: "Gotham Narrow SSm",Arial,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+	}
+	
+	
+	/* Style for our header texts 
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;	
+		font-family: arial,helvetica;
+		margin:0 0 0 50px;
+		padding:0;
+		text-align: left;
+		
+	}
+	h2{
+		font-size: 2em;
+		line-height: 150%;
+		margin: 0 0 18px 0;
+		font-family: arial,helvetica;
+	}
+	
+	
+
+	
+	/* Common styles
+	* --------------------------------------- */
+	img{
+	    -webkit-transition: all 0.7s ease-out;
+		-moz-transition: all 0.7s ease-out;
+		-o-transition: all 0.7s ease-out;
+		transition: all 0.7s ease-out;
+	}
+	img {
+	    -webkit-transition: all 0.7s ease-out;
+		-moz-transition: all 0.7s ease-out;
+		-o-transition: all 0.7s ease-out;
+		transition: all 0.7s ease-out;
+	}
+	img.ipad {
+	    height: 500px
+
+	}
+	img.iphone{
+	    -webkit-transition: all 0.7s ease-out;
+		-moz-transition: all 0.7s ease-out;
+		-o-transition: all 0.7s ease-out;
+		transition: all 0.7s ease-out;
+	}
+	.section{
+		text-align:center;
+		overflow:hidden;
+	}
+	.wrap{
+		width: 1180px;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+	.box{
+		text-align: left;
+		color: #808080;
+		font-size: 1.2em;
+		line-height: 1.6em;
+	}
+	.concept{
+		height: 700px
+	}
+	
+	
+	#section0{
+		padding: 60px 0;
+	}
+	
+	#section0 h1{
+		width: 100%
+	}
+	#section0 .right{
+		width: 610px;
+		height: 100%;
+		float: left;
+		margin: -10px 0px 0px 25px;
+		vertical-align: middle;
+	}
+	#section0 .right img{
+		width: 90%
+	}
+	
+	#section0 .left{
+		width: 470px;
+		height: 100%;
+		float: left;
+		margin: 0px 25px 0px 0px;
+	}
+	#section0 .left img{
+		text-align: left;
+		height: 90%;
+		margin-left: 0px;		
+	}
+	
+	
+	
