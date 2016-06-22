@@ -1,0 +1,45 @@
+{
+
+	"HTMLFileName":"loading.html",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"symbol_stage":{
+		"defaultStageParentHeight":"90px",
+		"dummyStageParentHeight":"90px",
+		"defaultStageParentWidth":"90px",
+		"dummyStageParentWidth":"90px",
+		"element_${_icon2}":{
+			"timelineColor2":"0xcbbd71",
+			"animationEnabled":"true",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"}},
+	"TransitionIdCounter":"3",
+	"CompZoomFactor":"100",
+	"StageZoomFactor":"100",
+	"pixelsPerMs":"0.2",
+	"usedBOM":"false",
+	"nextElementColorIndex":"2",
+	"stage-Default Timeline_playhead_ms":"1000",
+	"viewStartY":"0",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+            \"ElementKeyframes\": {\
+                \"${_icon2}\": []\
+            }\
+      }\
+   }},\
+\"icon\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"プリローダー\": {\
+   \"timelines\": {\
+\
+   }},\
+\"下位レベル\": {\
+   \"timelines\": {\
+\
+   }}\
+}"}

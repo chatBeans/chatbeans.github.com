@@ -65,7 +65,7 @@
 			options.autoScrolling = value;
 
 			var element = $('.section.active');
-
+			
 			if(options.autoScrolling){
 				$('html, body').css({
 					'overflow' : 'hidden',
@@ -209,6 +209,7 @@
 
 
 			// if there's any slide
+			
 			if (numSlides > 1) {
 				var sliderWidth = numSlides * 100;
 				var slideWidth = 100 / numSlides;
@@ -237,6 +238,7 @@
 					//if the slide won#t be an starting point, the default will be the first one
 					if(!index && that.find('.slide.active').length == 0){
 						$(this).addClass('active');
+						
 					}
 
 					$(this).css('width', slideWidth + '%');
@@ -260,6 +262,7 @@
 
 			//the starting point is a slide?
 			var activeSlide = $('.section.active').find('.slide.active');
+			
 			if( activeSlide.length &&  ($('.section.active').index('.section') != 0 || ($('.section.active').index('.section') == 0 && activeSlide.index() != 0))){
 				var prevScrollingSpeepd = options.scrollingSpeed;
 				$.fn.fullpage.setScrollingSpeed (0);
@@ -309,7 +312,7 @@
 			//getting the anchor link in the URL and deleting the `#`
 			var value =  window.location.hash.replace('#', '').split('/');
 			var destiny = value[0];
-
+			$("b").text("Aaaaaaaaaaaaaaaaaaaaaaaaaaaa");
 			if(destiny.length){
 				var section = $('[data-anchor="'+destiny+'"]');
 
@@ -334,7 +337,7 @@
 
 		//when scrolling...
 		$(window).scroll(function(e){
-
+			
 			if(!options.autoScrolling){
 				var currentScroll = $(window).scrollTop();
 
@@ -346,9 +349,10 @@
 
 				//geting the last one, the current one on the screen
 				var currentSection = scrolledSections[scrolledSections.length-1];
-
+				
 				//executing only once the first time we reach the section
 				if(!currentSection.hasClass('active')){
+					
 					var leavingSection = $('.section.active').index('.section') + 1;
 
 					isScrolling = true;
@@ -954,7 +958,7 @@
 					$.isFunction( options.onSlideLeave ) && options.onSlideLeave.call( this, anchorLink, (sectionIndex + 1), prevSlideIndex, xMovement);
 				}
 			}
-
+			
 			destiny.addClass('active').siblings().removeClass('active');
 
 
