@@ -7,7 +7,7 @@
 		<script>
 $(function(){
 	$("a").click(function(){
-		$("img").attr("src",$(this).attr("href")).attr("alt",$(this).text());
+		$("img#test").attr("src",$(this).attr("href")).attr("alt",$(this).text());
 		return false;
 	});
 });
@@ -19,8 +19,9 @@ $(function(){
 		<li><a href="sea.jpg">海</a></li>
 		<li><a href="jellyfish.jpg">くらげ</a></li>
 		<li><a href="building.jpg">建物</a></li>
-	</ul>
-	<p><img src="flower.jpg" alt="花"></p>
+	</ul>		
+	<p><img id="test" src="flower.jpg" alt="花"></p>
+	<img src="flower.jpg" alt="花">
 	
 	</body>
 </html>
